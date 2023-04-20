@@ -18,9 +18,4 @@ class Numcpp(CMakePackage):
     maintainers("jpcoding")
 
     version("master", branch="master")
-
-
-    def cmake_args(self):
-        spec = self.spec
-        args = []
-        return args
+    version("2.10.1", branck="6058ecdd0a0cc49422862b85a5256ead91600e8b")
